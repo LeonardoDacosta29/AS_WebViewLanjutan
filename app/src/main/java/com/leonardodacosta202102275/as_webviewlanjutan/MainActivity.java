@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         WebAppInterface webAppInterface = new WebAppInterface(this,MainActivity.this);
         _webView1.addJavascriptInterface(webAppInterface, "Android");
 
-        String url ="https://stmikpontianak.net/011100862/webview_lanjutan.html";
+        String url ="https://leonardodacosta.000webhostapp.com";
         _webView1.loadUrl(url);
     }
 }
